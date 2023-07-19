@@ -16,7 +16,7 @@ The Responsive Web Design Certification consists of the following projects and e
 
 Progress: 20% (1/5 projects completed)
 
-- [x] **[Survey Form](./survey-form)**: A survey form to collect feedback or information from users.
+- [x] **[Survey Form](./survey-form)**
 - [ ] Tribute Page
 - [ ] Technical Documentation Page
 - [ ] Product Landing Page
