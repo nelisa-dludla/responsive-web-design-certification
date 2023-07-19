@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>F1 Survey Form</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1 id="title">Formula 1 Survey Form</h1>
+		<p id="description">Thank you for taking the time to fill out this mid-season survey so we may continue to ignore your requests</p>
+		<div>
+			<form id="survey-form">
+				<fieldset>
+					<label id="name-label" for="name">Name: <input id="name" name="name"type="text" placeholder="Enter your name" required></label>
+					<label id="email-label" for="email">Email: <input id="email" name="email"type="email" placeholder="Enter your Email" required></label>
+					<label id="age-label" for="age">Age: <input id="age" name="age" type="number" min="0" max="120" placeholder="Enter your age" required></label>
+				</fieldset>
+				<fieldset> What is your favourite team?
+					<select id="dropdown">
+						<option value="">Select a team</option>
+						<option value="A">Alfa Romeo</option>
+						<option value="B">AlphaTauri</option>
+						<option value="C">Aston Martin</option>
+						<option value="D">Alpine</option>
+						<option value="E">Ferrari</option>
+						<option value="F">Haas</option>
+						<option value="G">McLaren</option>
+						<option value="H">Mercedes</option>
+						<option value="I">Red Bull</option>
+						<option value="J">Williams</option>
+					</select>
+				</fieldset>
+				<fieldset>Are you enjoying the current Formula 1 season?
+					<label id="unbother-label" for="enjoyment"><input id="unbothered" class="checkbox-radio" name="enjoyment" type="radio" value="unbothered" checked> Unbothered</label>
+					<label id="yes-label" for="enjoyment"><input id="yes" class="checkbox-radio" name="enjoyment" type="radio" value="yes"> Yes</label>
+					<label id="no-label" for="enjoyment"><input id="no" class="checkbox-radio" name="enjoyment" type="radio" value="no"> No</label>
+				</fieldset>
+				<fieldset>What is your favourite part of a race weekend?
+					<select id="favourite-dropdown">
+						<option value="">Select an option</option>
+						<option value="1">Free Practice</option>
+						<option value="2">Qualifying</option>
+						<option value="3">Ted's Notebook</option>
+						<option value="4">The Race</option>
+						<option value="5">Driver's Parade</option>
+						<option value="6">Sprint Race</option>
+						<option value="7">Media Pen Interviews</option>
+						<option value="8">The Checkered Flag</option>
+					</select>
+				</fieldset>
+				<fieldset>Which of these do you think would improve the race weekend? (Check all that apply)
+					<label id="disqualify-max-label"><input id="disqualify-max" class="checkbox-radio" name="disqualify-max" type="checkbox" value="disqualify-max" checked> Disqualify Max Verstappen</label>
+					<label id="equal-machinary-label"><input id="equal-machinary" class="checkbox-radio" name="equal-machinary" type="checkbox" value="equal-machinary"> Equal Machinary</label>
+					<label id="one-shot-label"><input id="one-shot" class="checkbox-radio" name="one-shot" type="checkbox" value="one-shot"> One-Shot Qualifying</label>
+					<label id="use-of-all-label"><input id="use-of-all" class="checkbox-radio" name="use-of-all" type="checkbox" value="use-of-all"> Use of all three tyre compounds during the race</label>
+					<label id="reverse-grid-label"><input id="reverse-grid" class="checkbox-radio" name="reverse-grid" type="checkbox" value="reverse-grid"> Reverse Grid</label>
+				</fieldset>
+				<fieldset>Any comments or suggestions on what Steffano Domenicali should do to save Formula 1?
+					<textarea id="comment-suggestion" name="comment-suggestion" rows="5" placeholder="Enter your comments here..."></textarea>
+				</fieldset>
+				<input id="submit" type="submit">
+			</form>
+		</div>
+	</body>
+</html>
