@@ -2,7 +2,7 @@
 
 This project is a tribute page dedicated to Portgas D. Ace, a beloved character from the iconic manga and anime series, One Piece. The page showcases various aspects of Ace's life, from his early years to his impact on the world and legacy.
 
-<img src="ace-tribute-page/assets/ace4-bw.jpeg" alt="Portgas D. Ace" width="300">
+<img src="tribute-page/assets/ace4-bw.jpeg" alt="Portgas D. Ace" width="300">
 
 ## Getting Started
 
