@@ -14,10 +14,10 @@ The Responsive Web Design Certification consists of the following projects and e
 
 ## Progress
 
-Progress: 20% (1/5 projects completed)
+Progress: 40% (2/5 projects completed)
 
 - [x] **[Survey Form](./survey-form)**
-- [ ] Tribute Page
+- [x] **[Tribute Page](./tribute-page)**
 - [ ] Technical Documentation Page
 - [ ] Product Landing Page
 - [ ] Personal Portfolio
