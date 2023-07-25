@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, intial-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
+		<title>Python Documentation</title>
+	</head>
+	<body>
+		<header>
+			<nav id="navbar">
+				<ul>
+					<header><h2>Python Documentation</h2></header>
+					<div class="divider"></div>
+					<li class="nav-item"><a class="nav-link" href="#Introduction_to_Python">Introduction to Python</a></li>
+					<div class="divider"></div>
+					<li class="nav-item"><a class="nav-link" href="#Python_Basics">Python Basics</a></li>
+					<div class="divider"></div>
+					<li class="nav-item"><a class="nav-link" href="#Control_Flow_and_Loops">Control Flow and Loops</a></li>
+					<div class="divider"></div>
+					<li class="nav-item"><a class="nav-link" href="#Functions_and_Modules">Functions and Modules</a></li>
+					<div class="divider"></div>
+					<li class="nav-item"><a class="nav-link" href="#Exception_Handling">Exception Handling</a></li>
+					<div class="divider"></div>
+					<li class="nav-item"><a class="nav-link" href="#File_Handling">File Handling</a></li>
+					<div class="divider"></div>
+					<li class="nav-item"><a class="nav-link" href="#Object-Oriented_Programming_(OOP)">Object-Oriented Programming (OOP)</a></li>
+					<div class="divider"></div>
+					<li class="nav-item"><a class="nav-link" href="#Overview_of_Popular_Python_Libraries_and_Frameworks">Overview of Popular Python Libraries and Frameworks</a></li>
+					<div class="divider"></div>
+					<li class="nav-item"><a class="nav-link" href="#Managing_Project_Dependencies">Managing Project Dependencies</a></li>
+					<div class="divider"></div>
+					<li class="nav-item"><a class="nav-link" href="#Writing_Pythonic_Code">Writing Pythonic Code</a></li>
+					<div class="divider"></div>
+					<li class="nav-item"><a class="nav-link" href="#Reference">Reference</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main id="main-doc">
+			<!-- Section 1-->
+			<section id="Introduction_to_Python" class="main-section">
+				<header><h2>Introduction to Python</h2></header>
+				<div class="divider"></div>
+				<h4>What is Python?</h4>
+				<p>Python is a high-level, interpreted programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming, making it versatile and suitable for a wide range of applications.</p>
+				<h4>Why Choose Python?</h4>
+				<p>Python has gained immense popularity over the years due to its numerous advantages. Some of the key reasons developers choose Python include:</p>
+				<ol>
+					<li><span class="bold">Readability:</span> Python's syntax emphasizes code readability, which reduces the cost of program maintenance and allows for easy collaboration among developers.</li>
+					<li><span class="bold">Versatility:</span> Python offers a diverse range of libraries and frameworks, making it suitable for web development, data analysis, artificial intelligence, machine learning, and more.</li>
+					<li><span class="bold">Large Community:</span> Python boasts a massive and active community that contributes to its growth and supports developers with resources, libraries, and helpful discussions.</li>
+					<li><span class="bold">Cross-Platform:</span> Python is compatible with various operating systems, allowing developers to write code once and run it on multiple platforms.</li>
+					<li><span class="bold">Open Source:</span> Python is open-source, meaning it's freely available, and developers can contribute to its development and improvement.</li>
+				</ol>
+			</section>
+			<!-- Section 2-->
+			<section id="Python_Basics" class="main-section">
+				<header><h2>Python Basics</h2></header>
+				<div class="divider"></div>
+				<h4>Installing Python</h4>
+				<p>To begin using Python, you need to install it on your computer. Python is available for all major operating systems, and you can download the latest version from the official <a href="https://www.python.org/downloads/">Python website</a>.</p>
+				<h4>Hello, World!</h4>
+				<p>Let's start with a classic example of printing "Hello, World!" using Python. This simple program serves as an introduction to Python's basic syntax and structure.</p>
+				<pre><code>print("Hello, World!")</code></pre>
+				<h4>Variables and Data Types</h4>
+				<p>In Python, you don't need to explicitly declare the data type of a variable. It automatically determines the data type based on the value assigned to it. Python supports various data types, including integers, floating-point numbers, strings, lists, tuples, dictionaries, and more.</p>
+				<pre><code># Example of variables and data types
+age = 25
+name = "John Doe"
+is_student = True
+					</code></pre>
+			</section>
+			<!-- Section 3-->
+			<section id="Control_Flow_and_Loops" class="main-section">
+				<header><h2>Control Flow and Loops</h2></header>
+				<div class="divider"></div>
+				<h4>Conditional Statements</h4>
+				<p>Python provides several conditional statements, such as if, elif, and else, to control the flow of your program based on certain conditions.</p>
+				<pre><code># Example of conditional statements<br>
+num = 10
+if num > 0:
+	print("Positive")
+elif num < 0:
+	print("Negative")
+else:
+	print("Zero")
+					</code></pre>
+				<h4>Loops</h4>
+				<p>Loops allow you to execute a block of code repeatedly. Python supports for and while loops.</p>
+				<pre><code># Example of a for loop
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+	print(fruit)
+
+# Example of a while loop
+count = 0
+while count < 5:
+	print("Count:", count)
+	count += 1
+					</code></pre>
+			</section>
+			<!-- Section 4-->
+			<section id="Functions_and_Modules" class="main-section">
+				<header><h2>Functions and Modules</h2></header>
+				<div class="divider"></div>
+				<h4>Functions</h4>
+				<p>Functions are blocks of reusable code designed to perform a specific task. They help break down complex problems into smaller, manageable parts.</p>
+				<pre><code># Example of a function
+def add_numbers(a, b):
+	return a + b
+					</code></pre>
+				<h4>Modules</h4>
+				<p>Python's modular design encourages code reusability by using modules. A module is a file containing Python definitions and statements that can be imported into other Python programs.</p>
+				<pre><code># Example of using a module
+import math
+result = math.sqrt(25)
+					</code></pre>
+			</section>
+			<!-- Section 5-->
+			<section id="Exception_Handling" class="main-section">
+				<header><h2>Exception Handling</h2></header>
+				<div class="divider"></div>
+				<h4>Handling Exceptions</h4>
+				<p>Python allows you to handle errors and exceptions gracefully using the try, except, and finally blocks.</p>
+				<pre><code># Example of exception handling
+try:
+	num = int(input("Enter a number: "))
+	result = 10 / num
+except ZeroDivisionError:
+	print("Cannot divide by zero.")
+except ValueError:
+	print("Invalid input. Please enter a valid number.")
+finally:
+	print("Execution completed.")
+					</code></pre>
+			</section>
+			<!-- Section 6-->
+			<section id="File_Handling" class="main-section">
+				<header><h2>File Handling</h2></h2></header>
+				<div class="divider"></div>
+				<h4>Reading and Writing Files</h4>
+				<p>Python provides built-in functions for handling files, allowing you to read data from files and write data to them.</p>
+				<pre><code># Example of reading from a file
+with open("example.txt", "r") as file:
+	data = file.read()
+
+# Example of writing to a file
+with open("output.txt", "w") as file:
+	file.write("This is a sample text.")
+					</code></pre>
+			</section>
+			<!-- Section 7-->
+			<section id="Object-Oriented_Programming_(OOP)" class="main-section">
+				<header><h2>Object-Oriented Programming (OOP)</h2></header>
+				<div class="divider"></div>
+				<h4>Classes and Objects</h4>
+				<p>Python supports object-oriented programming, enabling you to create classes and objects to model real-world entities and behaviors.</p>
+				<pre><code># Example of a class and object
+class Dog:
+	def __init__(self, name, age):
+		self.name = name
+		self.age = age
+
+	def bark(self):
+		print(f"{self.name} says: Woof!")
+
+# Creating an object
+dog1 = Dog("Buddy", 3)
+dog1.bark()
+					</code></pre>
+			</section>
+			<!-- Section 8-->
+			<section id="Overview_of_Popular_Python_Libraries_and_Frameworks" class="main-section">
+				<header><h2>Overview of Popular Python Libraries and Frameworks</h2></header>
+				<div class="divider"></div>
+				<p>Python's ecosystem offers a plethora of powerful libraries and frameworks that enhance its capabilities and streamline development. Understanding these tools is crucial for every Python developer. Here are some widely used Python libraries and frameworks:</p>
+				<h4>NumPy</h4>
+				<p>NumPy stands for "Numerical Python" and provides support for large, multi-dimensional arrays and matrices, along with a wide range of mathematical functions to operate on these arrays efficiently. It is extensively used in scientific computing, data analysis, and machine learning.</p>
+				<p>Example - Creating a NumPy array and performing a calculation:</p>
+				<pre><code>import numpy as np
+
+data = [1, 2, 3, 4, 5]
+arr = np.array(data)
+mean_value = np.mean(arr)
+print("Mean:", mean_value)
+					</code></pre>
+				<h4>Pandas</h4>
+				<p>Pandas is a powerful library for data manipulation and analysis. It introduces the DataFrame, a two-dimensional, labeled data structure, akin to a spreadsheet, making it easy to work with structured data.</p>
+				<p>Example - Creating a DataFrame and performing data operations:</p>
+				<pre><code>import pandas as pd
+
+data = {'Name': ['Alice', 'Bob', 'Charlie'], 'Age': [25, 30, 22]}
+df = pd.DataFrame(data)
+print(df)
+					</code></pre>
+				<h4>Flask</h4>
+				<p>Flask is a lightweight and flexible web framework for building web applications and APIs. It provides tools and libraries to handle routing, templates, and more, without imposing a specific structure on your project.</p>
+				<p>Example - A simple Flask web application:</p>
+				<pre><code>from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+	return 'Hello, World!'
+
+if __name__ == '__main__':
+	app.run()
+					</code></pre>
+				<h4>Django</h4>
+				<p>Django is a full-featured web framework that follows the "batteries-included" philosophy. It includes everything you need to build robust web applications, from handling user authentication to managing databases.</p>
+				<p>Example - Creating a basic Django project:</p>
+				<pre><code># Create a new Django project
+django-admin startproject myproject
+
+# Run the development server
+cd myproject
+python manage.py runserver
+					</code></pre>
+				<h4>Matplotlib</h4>
+				<p>Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. It is highly customizable and supports a wide range of plot types.</p>
+				<p>Example - Plotting a simple line chart:</p>
+				<pre><code>import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+plt.plot(x, y)
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.title('Simple Line Chart')
+plt.show()
+					</code></pre>
+				<h4>TensorFlow</h4>
+				<p>TensorFlow is a popular open-source library for machine learning and deep learning tasks. It provides an extensive set of tools to build and train neural networks.</p>
+				<p>Example - Building a simple neural network in TensorFlow:</p>
+				<pre><code>import tensorflow as tf
+
+# Define a simple model
+model = tf.keras.Sequential([
+	tf.keras.layers.Dense(64, activation='relu', input_shape=(input_dim,)),
+	tf.keras.layers.Dense(10, activation='softmax')
+])
+					</code></pre>
+			</section>
+			<!-- Section 9-->
+			<section id="Managing_Project_Dependencies" class="main-section">
+				<header><h2>Managing Project Dependencies</h2></header>
+				<div class="divider"></div>
+				<h4>The Importance of Virtual Environments</h4>
+				<p>Virtual environments are isolated environments for Python projects. They allow you to install project-specific dependencies, ensuring that different projects can use different library versions without conflicts.</p>
+				<p>Creating and Activating a Virtual Environment using venv</p>
+				<pre><code># Create a new virtual environment named 'myenv'
+python -m venv myenv
+
+# Activate the virtual environment
+# Windows
+myenv\Scripts\activate
+
+# macOS/Linux
+source myenv/bin/activate
+					</code></pre>
+				<h4>Managing Dependencies with pip</h4>
+				<p>Within your activated virtual environment, you can use <code>pip</code> to install Python packages required for your project:</p>
+				<pre><code># Install a specific package
+pip install package-name
+
+# Install packages from a requirements file
+pip install -r requirements.txt
+
+# Generate a requirements file with installed packages
+pip freeze > requirements.txt
+					</code></pre>
+				<h4>Deactivating the Virtual Environment</h4>
+				<p>When you're done working on your project, you can deactivate the virtual environment:</p>
+				<pre><code>deactivate
+				</code></pre>
+			</section>
+			<!-- Section 10-->
+			<section id="Writing_Pythonic_Code" class="main-section">
+				<header><h2>Writing Pythonic Code</h2></header>
+				<div class="divider"></div>
+				<h4>Coding Best Practices</h4>
+				<ul>
+					<li><span class="bold">PEP 8:</span> Follow the Python Enhancement Proposal (PEP) 8 style guide to maintain consistency and readability in your code.</li>
+					<li><span class="bold">Meaningful Names: Use descriptive variable and function names that convey their purpose.</li>
+					<li><span class="bold">Comments:</span> Add comments to explain complex sections of code or provide context where necessary.</li>
+				</ul>
+				<h4>Tips for Improving Code Performance</h4>
+				<ul>
+					<li><span class="bold">Avoid Global Variables:</span> Minimize the use of global variables, as they can lead to unintended side effects and hinder code maintainability.</li>
+					<li><span class="bold">Use Built-in Functions:</span> Utilize built-in Python functions and libraries, as they are often optimized for performance.</li>
+				</ul>
+				<h4>Pythonic Coding Techniques</h4>
+				<ul>
+					<li><span class="bold">List Comprehensions:</span> Use list comprehensions for concise and readable code to create lists from existing lists.</li>
+					<pre><code># Example of list comprehension
+squared_numbers = [x**2 for x in numbers]
+						</code></pre>
+					<li><span class="bold">Generators:</span> Use generators to produce sequences of values efficiently, particularly when dealing with large datasets.</li>
+					<pre><code># Example of a generator function
+def generate_numbers(n):
+	for i in range(n):
+		yield i
+
+# Using the generator
+numbers = generate_numbers(1000000)
+						</code></pre>
+				</ul>
+			</section>
+			<!-- Section 11-->
+			<section id="Reference" class="main-section">
+				<header><h2>Reference</h2></h2></header>
+				<div class="divider"></div>
+				<p>The content in this Python technical documentation page is based on various reputable sources, primarily the official Python documentation, Python Enhancement Proposals (PEPs), and the Python community's best practices. Additionally, code examples and explanations have been drawn from real-world use cases and established Python tutorials.</p>
+				<p>Sources:</p>
+				<ol>
+					<li><a href="https://docs.python.org/">Official Python Documentation</a></li>
+					<li><a href="https://peps.python.org/">Python Enhancement Proposals (PEPs)</a></li>
+					<li><a href="https://numpy.org/doc/">NumPy Documentation</a></li>
+					<li><a href="https://pandas.pydata.org/docs/">Pandas Documentation</a></li>
+					<li><a href="https://flask.palletsprojects.com/">Flask Documentation</a></li>
+					<li><a href="https://docs.djangoproject.com/">Django Documentation</a></li>
+					<li><a href="https://matplotlib.org/stable/contents.html">Matplotlib Documentation</a></li>
+					<li><a href="https://www.tensorflow.org/api_docs">TensorFlow Documentation</a></li>
+				</ol>
+				<p>These sources are continuously updated and serve as valuable references for Python developers of all levels. Feel free to explore them further for more in-depth information and advanced concepts.</p>
+			</section>
+		</main>
+	</body>
+</html>
