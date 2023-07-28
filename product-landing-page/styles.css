@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .bold {
@@ -10,17 +11,27 @@ section[id="price_plan"] {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: center;
-	column-gap: 20px;
-	row-gap: 20px;
-	padding: 0 50px;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-bottom: 30px;
+	border: 3px solid black;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 	section[id="price_plan"] {
 		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	section {
+		width: 100%;
+	}
+
+	body {
+		width: 100%;
 	}
 }
+
 .price_container {
 	width: 250px;
 	height: 300px;
@@ -34,6 +45,9 @@ section[id="price_plan"] {
 
 body {
 	padding-top: 50px;
+	background-color: #f8f8f8;
+	color: #010101;
+
 }
 #nav-bar {
 	position: fixed;
@@ -42,7 +56,7 @@ body {
 	overflow: hidden;
 	width: 100%;
 	margin: 0;
-	background-color: #333;
+	background: #db272e;
 	/* border: 2px solid black; */
 }
 
@@ -56,13 +70,12 @@ body {
 	justify-content: flex-end;
 	text-align: center;
 	padding: 14px 16px;
-	color: white;
+	color: #f8f8f8;
 	height: 100%;
-	border-left: 2px solid gray;
 }
 
 #nav-bar a:hover {
-	background-color: #ddd;
+	background-color: #f9f9f9;
 	color: black;
 }
 
@@ -75,14 +88,58 @@ body {
 }
 
 #email {
-	margin-bottom: 20px;
+	font-size: 15px;
+	margin-bottom: 10px;
+	border: 3px solid black;
 }
 #submit {
 	display: block;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	background-color: #f2b705;
+	border: 0;
+	padding: 10px;
+	border: 3px solid black;
 }
 
 section {
-	width: 70%;
+	width: 800px;
 	margin: 0 auto;
+}
+
+.service_container {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+}
+
+.emoji {
+	font-size: 50px;
+	padding-bottom: 50px;
+	/* border: 3px solid black; */
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	/* border: 3px solid black; */
+}
+
+.sub-heading {
+	margin: 0;
+	/* border: 3px solid black; */
+}
+
+.video_container {
+	display: flex;
+	justify-content: center;
+	padding: 30px auto;
+	/* border: 10px solid green; */
+}
+
+li {
+	padding-bottom: 20px;
 }
