@@ -9,16 +9,16 @@
 		<header id="header">
 			<h2 id="service_name">Empowered by Jujutsu, Driven by Protection</h2>
 			<nav id="nav-bar">
-				<img id="header-img" src="./assets/jjk-logo.png">
-				<a href="#services">Services</a>
-				<a href="#how_the_service_works">How the service works</a>
-				<a href="#price_plan">Price Plan</a>
+				<img id="header-img" src="./assets/jjk-logo.png" alt="Jujutsu Kaisen Logo">
+				<a class="nav-link" href="#services">Services</a>
+				<a class="nav-link" href="#how_the_service_works">How the service works</a>
+				<a class="nav-link" href="#pricing">Pricing</a>
 			</nav>
 		</header>
 		<section id="only-input">
-			<form id="form">
-				<input id="email" type="email" placeholder="Enter your email address">
-				<input id="submit" class="bold" type="submit">
+			<form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+				<input id="email" name="email" type="email" placeholder="Enter your email address">
+				<input id="submit" class="bold" type="submit" ELECT="SUBMIT">
 			</form>
 		</section>
 		<section id="services">
@@ -66,7 +66,7 @@
 			</div>
 		</section>
 		<div class="video_container">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/GwaRztMaoY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/GwaRztMaoY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		</div>
 		<section id="how_the_service_works">
 			<header><h3>How the service works:</h3></header>
@@ -75,17 +75,17 @@
 				<li><span class="bold">Consultation and Analysis: </span>Jujutsu Sorcerers will conduct virtual consultations with the customers, gaining insights into the curse. They may request additional information or conduct remote detection as needed.</li>
 				<li><span class="bold">Proposal and Pricing: </span>Based on the curse analysis, the Jujutsu Sorcerers will present a proposal outlining the recommended exorcism plan and associated pricing.</li>
 				<li><span class="bold">Exorcism Execution: </span>Once the customer approves the proposal and pricing, the Jujutsu Sorcerers will commence the exorcism process. For on-site exorcisms, the sorcerers will coordinate the logistics and visit the cursed location.</li>
-				<li><span class="bold">Follow-Up and Support:</span>After the exorcism, the sorcerers will follow up with the customers to ensure the curse has been successfully removed. They will provide guidance on how to maintain protection against potential future curses.</li>
+				<li><span class="bold">Follow-Up and Support: </span>After the exorcism, the sorcerers will follow up with the customers to ensure the curse has been successfully removed. They will provide guidance on how to maintain protection against potential future curses.</li>
 			</ol>
 		</section>
-		<section id="price_plan">
+		<section id="pricing">
 			<div class="price_container">
 				<h4 class="package_name">Basic Exorcism Package</h4>
 				<p class="package_price">$200</p>
 				<p class="package_detail">Online Consultation</p>
 				<p class="package_detail">Curse Detection</p>
 				<p class="package_detail">Custom Exorcism Ritual</p>
-				<button class="select_button" type="submit">Select</button>
+				<button class="select_button bold" type="submit">SELECT</button>
 			</div>
 			<div class="price_container">
 				<h4 class="package_name">Advanced Exorcism Package</h4>
@@ -93,22 +93,30 @@
 				<p class="package_detail">On-site Exorcism</p>
 				<p class="package_detail">Emergency Support</p>
 				<p class="package_detail">Post-exorcism Protection</p>
-				<button class="select_button" type="submit">Select</button>
+				<button class="select_button bold" type="submit">SELECT</button>
 			</div>
 			<div class="price_container">
 				<h4 class="package_name">Premium Exorcism Package</h4>
 				<p class="package_price">$800</p>
-				<p class="package_detail">Expedited service for highly dangerous curses</p>
+				<p class="package_detail">Expedited service for dangerous curses</p>
 				<p class="package_detail">Priority Scheduling</p>
-				<p class="package_detail">A powerful Protective Charm</p>
-				<button class="select_button" type="submit">Select</button>
+				<p class="package_detail">Powerful Protective Charm</p>
+				<button class="select_button bold" type="submit">SELECT</button>
 			</div>
 			<div class="price_container">
 				<h4 class="package_name">Monthly Retainer Plan</h4>
 				<p class="package_price">$150 per month</p>
-				<p class="package_detail">For customers who may require ongoing protection from multiple curses.</p>
-				<button class="select_button" type="submit">Select</button>
+				<p class="package_detail">Ongoing protection from multiple curses</p>
+				<button class="select_button bold" type="submit">SELECT</button>
 			</div>
 		</section>
+		<footer id="footer">
+			<nav class="foot-bar">
+				<a href="#">Contact</a>
+				<a href="#">Terms</a>
+				<a href="#">Privacy</a>
+				<p> Copyright 2023, JujutsuGuard</p>
+			</nav>
+		</footer>
 	</body>
 </html>
