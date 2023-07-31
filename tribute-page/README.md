@@ -2,7 +2,7 @@
 
 This project is a tribute page dedicated to Portgas D. Ace, a beloved character from the iconic manga and anime series, One Piece. The page showcases various aspects of Ace's life, from his early years to his impact on the world and legacy.
 
-<img src="tribute-page/assets/ace4-bw.jpeg" alt="Portgas D. Ace" width="300">
+<img src="./tribute-page/assets/ace4-bw.jpeg" alt="Portgas D. Ace" width="300">
 
 ## Getting Started
 
@@ -12,7 +12,7 @@ To use or modify this survey form, follow the instructions below:
 
 2. Navigate to the "survey-form" directory: `cd responsive-web-design-certification/tribute-page`
 
-3. Open the `index.html` file in your preferred web browser to view the survey form.
+3. Open the `index.html` file in your preferred web browser to view the tribute page.
 
 ## Project Structure
 
@@ -21,7 +21,7 @@ The project has the following file structure:
 - `responsive-web-design-certification/`
 - `tribute-page/`
 - `index.html`: The main HTML file that contains the survey form structure.
-- `styles.css`: The CSS file that styles the survey form elements.
+- `styles.css`: The CSS file that styles the tribute page elements.
 - `assets/`: Additional assets (images) used in the project.
 
 ## License

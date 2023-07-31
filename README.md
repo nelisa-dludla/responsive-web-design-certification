@@ -6,21 +6,11 @@ This repository contains my projects and exercises completed as part of the Free
 
 The Responsive Web Design Certification consists of the following projects and exercises:
 
-1. **Tribute Page**: A simple tribute page dedicated to a person of your choice.
-2. **Survey Form**: A survey form to collect feedback or information from users.
-3. **Product Landing Page**: A landing page for a fictional product or service.
-4. **Technical Documentation Page**: A technical documentation page for a programming language or technology.
-5. **Personal Portfolio**: A personal portfolio website showcasing your projects and skills.
-
-## Progress
-
-Progress: 80% (4/5 projects completed)
-
-- [x] **[Survey Form](./survey-form)**
-- [x] **[Tribute Page](./tribute-page)**
-- [x] **[Technical Documentation Page](./technical-documentation-page/)**
-- [x] **[Product Landing Page](./product-landing-page)**
-- [ ] Personal Portfolio
+1. **[Survey Form](./survey-form)**: A simple tribute page dedicated to a person of your choice.
+2. **[Tribute Page](./tribute-page)**: A survey form to collect feedback or information from users.
+3. **[Technical Documentation Page](./technical-documentation-page/)**: A landing page for a fictional product or service.
+4. **[Product Landing Page](./product-landing-page)**: A technical documentation page for a programming language or technology.
+5. **[Personal Portfolio Webpage](./personal-portfolio-webpage)**: A personal portfolio website showcasing your projects and skills.
 
 ## Getting Started
 
