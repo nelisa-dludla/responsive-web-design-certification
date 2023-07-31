@@ -229,7 +229,39 @@ i:hover {
 	}
 
 	.heading {
-		max-width: 600px;
+		max-width: 300px;
+	}
+
+	.icons {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	html {
+		font-size: 16px;
+	}
+
+	.thumbnails {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		align-content: center;
+		margin-top: 70px;
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+
+	#projects-section {
+		height: 250vh;
+	}
+
+	.heading {
+		max-width: 300px;
 	}
 
 	.icons {
